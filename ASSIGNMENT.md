@@ -57,3 +57,21 @@ Rebase replays commits on top of another branch keeping history clean and linear
 `git reflog` records every movement of HEAD, including resets, merges, and checkouts.
 It's useful for recovering lost commits — even after a `git reset --hard` you can
 find the commit hash in reflog and restore it.
+
+## Day 2 – Advanced Level
+
+### Upstream remote command
+git remote add upstream https://github.com/some-original/repo.git
+
+### git fetch vs git pull
+- `git fetch` downloads changes from remote but does NOT merge them into your local branch.
+- `git pull` = `git fetch` + `git merge`. It downloads AND merges in one step.
+
+### Open Source Contribution Flow
+1. **Fork** – Click Fork on GitHub to copy the repo to your account
+2. **Clone** – `git clone https://github.com/YOUR-USERNAME/repo.git`
+3. **Branch** – `git checkout -b feature/my-fix`
+4. **Change** – Edit files in VS Code
+5. **Commit** – `git add . && git commit -m "Fix: describe your change"`
+6. **Push** – `git push origin feature/my-fix`
+7. **Pull Request** – Go to GitHub and open a PR to the original repo
