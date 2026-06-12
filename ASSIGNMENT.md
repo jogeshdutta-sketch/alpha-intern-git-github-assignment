@@ -17,3 +17,9 @@ git config --global user.email "youremail@example.com"
 
 ### .gitignore entries
 Ignored: node_modules/, .env, .vscode/
+
+### git log --oneline output
+c300a09 Add logs and uploads folders with .gitkeep placeholders
+b47d866 Add .gitignore and ASSIGNMENT.md with Git vs GitHub explanation
+283870f Initial commit: Add README.md with Git and GitHub introduction
+
