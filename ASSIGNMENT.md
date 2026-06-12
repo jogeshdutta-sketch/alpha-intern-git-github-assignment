@@ -33,4 +33,13 @@ I created two branches that both modified `day-1/conflict-test.md` differently.
 When I ran `git merge conflict-branch` on main, Git couldn't auto-merge them and
 marked the conflict with `<<<<<<<`, `=======`, and `>>>>>>>` markers.
 I resolved it by clicking "Accept Both Changes" in VS Code, then staged and committed the resolution.
+## Day 2 – Easy Level
 
+### git diff
+The diff shows lines added (marked with +) and removed (marked with -)
+since the last commit. It compares the working directory against the last committed state.
+
+### git stash
+Used `git stash` to temporarily save unstaged changes.
+`git stash list` showed: stash@{0}: WIP on main: 8ffe929 Complete Day 1 advanced tasks documentation
+Used `git stash apply` to restore the changes back.
