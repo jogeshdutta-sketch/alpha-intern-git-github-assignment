@@ -75,3 +75,6 @@ git remote add upstream https://github.com/some-original/repo.git
 5. **Commit** – `git add . && git commit -m "Fix: describe your change"`
 6. **Push** – `git push origin feature/my-fix`
 7. **Pull Request** – Go to GitHub and open a PR to the original repo
+
+### Pull Request
+Created a pull request from feature/pull-request-demo branch to main on GitHub.
