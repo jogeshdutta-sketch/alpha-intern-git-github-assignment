@@ -43,3 +43,6 @@ since the last commit. It compares the working directory against the last commit
 Used `git stash` to temporarily save unstaged changes.
 `git stash list` showed: stash@{0}: WIP on main: 8ffe929 Complete Day 1 advanced tasks documentation
 Used `git stash apply` to restore the changes back.
+### Tags
+Created tag: v1.0
+`git tag` output: v1.0
