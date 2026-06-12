@@ -28,3 +28,9 @@ b47d866 Add .gitignore and ASSIGNMENT.md with Git vs GitHub explanation
 ### Branch Rename Command
 git branch -m feature/day-1-practice day-1-practice-done
 
+### Merge Conflict Explanation
+I created two branches that both modified `day-1/conflict-test.md` differently.
+When I ran `git merge conflict-branch` on main, Git couldn't auto-merge them and
+marked the conflict with `<<<<<<<`, `=======`, and `>>>>>>>` markers.
+I resolved it by clicking "Accept Both Changes" in VS Code, then staged and committed the resolution.
+
