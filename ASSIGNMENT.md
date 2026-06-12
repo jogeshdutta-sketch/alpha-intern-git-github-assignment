@@ -23,3 +23,8 @@ c300a09 Add logs and uploads folders with .gitkeep placeholders
 b47d866 Add .gitignore and ASSIGNMENT.md with Git vs GitHub explanation
 283870f Initial commit: Add README.md with Git and GitHub introduction
 
+## Day 1 – Advanced Level
+
+### Branch Rename Command
+git branch -m feature/day-1-practice day-1-practice-done
+
