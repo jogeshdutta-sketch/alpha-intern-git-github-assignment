@@ -46,3 +46,14 @@ Used `git stash apply` to restore the changes back.
 ### Tags
 Created tag: v1.0
 `git tag` output: v1.0
+
+## Day 2 – Medium Level
+
+### Rebase
+Created feature/day-2-practice branch, added day-2/notes.md, then rebased onto main.
+Rebase replays commits on top of another branch keeping history clean and linear.
+
+### git reflog – Why it's useful
+`git reflog` records every movement of HEAD, including resets, merges, and checkouts.
+It's useful for recovering lost commits — even after a `git reset --hard` you can
+find the commit hash in reflog and restore it.
